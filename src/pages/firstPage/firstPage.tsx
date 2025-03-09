@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 export default function FirstPage() {
     const [koncertDatas, setKoncertDatas] = useState<Ikoncert[]>([])
-    const [elmaradE, setElmaradE] = useState<boolean>(false)
     useEffect(() =>{
       getDatas()
     }, [])
