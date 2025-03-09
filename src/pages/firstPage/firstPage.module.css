@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tbody{
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.thead{
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+.elements{
+    display: flex;
+    justify-content: start;
+    width: 110px;
+}
